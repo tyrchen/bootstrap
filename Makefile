@@ -35,6 +35,9 @@ build:
 	@echo "\n${HR}"
 	@echo "Bootstrap successfully built at ${DATE}."
 	@echo "${HR}\n"
+	@echo "Copying files to cayman."
+	@cp docs/assets/js/bootstrap.* ../cayman/vendors/bootstrap/js/
+	@cp docs/assets/css/bootstrap.* ../cayman/vendors/bootstrap/css/
 	@echo "Thanks for using Bootstrap,"
 	@echo "<3 @mdo and @fat\n"
 
